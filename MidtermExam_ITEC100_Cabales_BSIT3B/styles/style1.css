@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+ background: url(images/cvsuimus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 2200%;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+h1{
+  font-family: arial, sans-serif;
+}
+.main{
+  width:70%;
+ height:300px;
+  overflow-y: auto;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+th{
+  background-color:#62BD69;
+  border: 2px solid #757575;
+  padding:8px 30px;
+  color: #000;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:#000000;
+}
+
+tr:nth-child(even) {
+  background-color: #0123;
+}
+
+button {
+  background-color: #C0C0C0; /* Green */
+  border: 1px solid #62BD69;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  float:right;
+  margin-right: 5%;
+  margin-top:10%;
+}
